@@ -4,7 +4,7 @@
  const express = require('express');
  const router = express.Router();
  
- const ta05Controller = require('../../controllers/ta05');
+ const ta05Controller = require('../controllers/ta05');
  
  // You can use GET with dynamic routes as well,
  // but POST is typically used to modify properties on the server
